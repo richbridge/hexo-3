@@ -26,7 +26,7 @@ jobs:
         run: pnpm install
       # 运行 pnpm generate，以 SSG 模式构建 Nuxt 应用
       - name: Generate site
-        run: pnpm generate
+        run: hexo generate
       # 部署到 Cloudflare Workers
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
