@@ -1,0 +1,10 @@
+name = "hexo-blog"
+type = "webpack"
+account_id = "837eb0eac3d363bb1dcec32eff5902c8"
+route = 'fanrich.eu.org/*'
+zone_id = '0e1396c4829f0bf5469e9b30f62072cb'
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "public",entry-point = "workers-site"}
+compatibility_date = "2023-01-23"
