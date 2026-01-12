@@ -1,6 +1,6 @@
 ---
 title: "Git 的使用"
-categories: [程技]
+categories: [Skill]
 tags: ["git"]
 date: 2023-09-25
 ---
