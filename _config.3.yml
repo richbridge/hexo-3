@@ -105,7 +105,7 @@ miit:
 reward: false
 # true 开启打赏功能
 
-searchAll: false
+searchAll: true
 # true 启用全文搜索
 # 开启此功能需要下面操作：
 # 1. 在 hexo 根目录 执行 npm install hexo-generator-search --save 安装插件
@@ -118,7 +118,7 @@ searchAll: false
 copyright: false
 # Copyright info. of post | 文末版权信息
 
-word_count: false
+word_count: true
 # true 开启字数统计
 # 开启此功能需要安装插件 ：在 hexo根目录 执行npm i hexo-wordcount --save
 
@@ -235,7 +235,7 @@ friends:
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: giscus  # 评论系统：gitalk、disqus、gitment、utteranc、livere、giscus,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数 目前仅支持 gitalk 和 disqus
   ## 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
@@ -291,10 +291,10 @@ utteranc:
 # 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
 
 giscus:
-  repo: xxx/xxx             # 用于承载评论的仓库
-  repoId: xxx               # 仓库ID,从giscus网站获取
+  repo: richbridge/hexo-3   # 用于承载评论的仓库
+  repoId: R_kgDOQ1BDdA          # 仓库ID,从giscus网站获取
   category: General         # Discussion主题分类
-  categoryId: x             # 分类ID,从giscus网站获取
+  categoryId: DIC_kwDOQ1BDdM4C02oG  # 分类ID,从giscus网站获取
   mapping: pathname         # Github讨论与博客文章之间的映射关系, pathname url title og:title
   strict: 0                 # 是否使用严格的标题匹配, 0 1
   reactionsEnabled: 1       # 是否使用Github讨论的Reactions, 0 1
